@@ -32,6 +32,7 @@ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 `docker-compose up airflow-init`
 After initialization is complete, you should see a message like below.
 
+
 ~~~
 airflow-init_1       | Upgrades done
 airflow-init_1       | Admin user airflow created
@@ -39,3 +40,26 @@ airflow-init_1       | 2.2.3
 start_airflow-init_1 exited with code 0
 ~~~
 The account created has the login airflow and the password airflow.
+### SETTING UP AWS ROLES AND SECURITY GROUP:
+1. Create keypair for ec2 instances
+
+2. Create S3 bucket
+
+3. Spark job and and spark step for EMR cluster
+
+4. Add environment to cluster
+
+### RUNNING AND SETTING UP CONNECTIONS ON AIRFLOW UI:
+To run the docker container, we have 2 ways to proceed. 1 is the turn on the docker Dashboard, 2 is command in Terminal 
+`docker-compose up` to run the docker-compose.yml file.
+- in http://localhost:8080 in **Admin** session, go to **Connections** and modify **EMR_default** and **AWS_default**
+- in **AWS_default**, we setup **login** and **password** respectively as IAM_role_name and Secret_key we have been set before and set the **Extra_path** with region as us-west2
+- in **EMR_defaut**, following the SPARK_JOB in the DAG.py file, we delete the original extra JSON file and leave it at blank.
+- Go to 
+
+
+-----------
+Credits:
+### Setup the airflow with docker
+https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
+### 
