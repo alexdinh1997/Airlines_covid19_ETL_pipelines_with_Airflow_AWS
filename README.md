@@ -1,4 +1,4 @@
-# ETL PIPELINES ON AIRFLOW, SPARK AND EMR
+# APPLICATION OF AIRFLOW ON ETL PIPELINE ORCHESTRATION IN EMR CLUSTERS
 
 ![process](https://github.com/alexdinh1997/Airlines_covid19_ETL_pipelines_with_Airflow_AWS/blob/master/img/Local.png)
 
