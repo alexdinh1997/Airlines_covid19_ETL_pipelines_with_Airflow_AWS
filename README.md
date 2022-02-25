@@ -20,7 +20,7 @@ Some directories in the container are mounted, which means that their contents a
 - ./logs - contains logs from task execution and scheduler.
 - ./plugins - you can put your custom plugins here.
 
-### INITIALIZE ENIVIRONMENT:
+### II. INITIALIZE ENIVIRONMENT:
 - Before running **Airflow** on **Docker** for the first time, we need to create files and directories inside the working main directory and initialize the database.
 
 ~~~
@@ -40,7 +40,7 @@ airflow-init_1       | 2.2.3
 start_airflow-init_1 exited with code 0
 ~~~
 The account created has the login airflow and the password airflow.
-### SETTING UP AWS ROLES AND SECURITY GROUP:
+### III. SETTING UP AWS ROLES AND SECURITY GROUP:
 1. Create keypair for ec2 instances
 
 2. Create S3 bucket
@@ -49,7 +49,7 @@ The account created has the login airflow and the password airflow.
 
 4. Add environment to cluster
 
-### RUNNING AND SETTING UP CONNECTIONS ON AIRFLOW UI:
+### IV. RUNNING AND SETTING UP CONNECTIONS ON AIRFLOW UI:
 To run the docker container, we have 2 ways to proceed. 1 is the turn on the docker Dashboard, 2 is command in Terminal 
 `docker-compose up` to run the docker-compose.yml file.
 - in http://localhost:8080 in **Admin** session, go to **Connections** and modify **EMR_default** and **AWS_default**
@@ -57,6 +57,11 @@ To run the docker container, we have 2 ways to proceed. 1 is the turn on the doc
 - in **EMR_defaut**, following the SPARK_JOB in the DAG.py file, we delete the original extra JSON file and leave it at blank.
 - Go to 
 
+### V. DATA INSPECTION
+### VI. MODELLING DATA
+### VII. AIRFLOW USAGES
+### VIII. QUALITY CHECK
+### IX. RESULT
 
 -----------
 Credits:
