@@ -42,6 +42,8 @@ airflow-init_1       | Admin user airflow created
 airflow-init_1       | 2.2.3
 start_airflow-init_1 exited with code 0
 ~~~
+
+
 The account created has the login airflow and the password airflow.
 ## III. SETTING UP AWS ROLES AND SECURITY GROUP:
 1. Create keypair for ec2 instances
@@ -52,7 +54,11 @@ The account created has the login airflow and the password airflow.
 (add info)
 4. Add environment to cluster
 (add info)
-## IV. RUNNING AND SETTING UP CONNECTIONS ON AIRFLOW UI:
+## IV. DAG ARCHITECHTURE
+
+<img src="https://github.com/alexdinh1997/Airlines_covid19_ETL_pipelines_with_Airflow_AWS/blob/master/img/DAG-Diagram.png">
+
+## V. RUNNING AND SETTING UP CONNECTIONS ON AIRFLOW UI:
 
 <img src="https://github.com/alexdinh1997/Airlines_covid19_ETL_pipelines_with_Airflow_AWS/blob/master/img/dir-tree.png" width=75% height=75%>
 
@@ -63,11 +69,11 @@ To run the docker container, we have 2 ways to proceed. 1 is the turn on the doc
 - in **EMR_defaut**, following the SPARK_JOB in the DAG.py file, we delete the original extra JSON file and leave it at blank.
 - Go to 
 
-## V. DATA INSPECTION
-## VI. MODELLING DATA
-## VII. AIRFLOW USAGES
-## VIII. QUALITY CHECK
-## IX. RESULT
+## VI. DATA INSPECTION
+## VII. MODELLING DATA
+## VIII. AIRFLOW USAGES
+## IX. QUALITY CHECK
+## X. RESULT
 
 -----------
 Credits:
