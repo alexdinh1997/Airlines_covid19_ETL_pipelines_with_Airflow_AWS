@@ -53,7 +53,9 @@ The account created has the login airflow and the password airflow.
 4. Add environment to cluster
 (add info)
 ## IV. RUNNING AND SETTING UP CONNECTIONS ON AIRFLOW UI:
-![dir-tree](https://github.com/alexdinh1997/Airlines_covid19_ETL_pipelines_with_Airflow_AWS/blob/master/img/dir-tree.png)
+
+<img src="https://github.com/alexdinh1997/Airlines_covid19_ETL_pipelines_with_Airflow_AWS/blob/master/img/dir-tree.png" width=75% height=75%>
+
 To run the docker container, we have 2 ways to proceed. 1 is the turn on the docker Dashboard, 2 is command in Terminal 
 `docker-compose up` to run the docker-compose.yml file.
 - in http://localhost:8080 in **Admin** session, go to **Connections** and modify **EMR_default** and **AWS_default**
