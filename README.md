@@ -42,13 +42,13 @@ start_airflow-init_1 exited with code 0
 The account created has the login airflow and the password airflow.
 ## III. SETTING UP AWS ROLES AND SECURITY GROUP:
 1. Create keypair for ec2 instances
-
+(add info)
 2. Create S3 bucket
-
+(add info)
 3. Spark job and and spark step for EMR cluster
-
+(add info)
 4. Add environment to cluster
-
+(add info)
 ## IV. RUNNING AND SETTING UP CONNECTIONS ON AIRFLOW UI:
 To run the docker container, we have 2 ways to proceed. 1 is the turn on the docker Dashboard, 2 is command in Terminal 
 `docker-compose up` to run the docker-compose.yml file.
