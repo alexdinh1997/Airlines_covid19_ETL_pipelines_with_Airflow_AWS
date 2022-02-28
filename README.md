@@ -1,8 +1,14 @@
 # APPLICATION OF AIRFLOW ON ETL PIPELINE ORCHESTRATION IN EMR CLUSTERS
 
+## PROJECT DISCRIPTION:
+
 ## SENARIO:
 
-## PROJECT FLOW
+The goal of the data engineering capstone project is to allow you to use what you've learnt during the curriculum. This project will be a significant component of your portfolio, assisting you in achieving your data engineering career objectives. 
+
+In this project, you have the option of completing the project that has been assigned to you or defining the scope and data for a project of your own design. In any case, you'll be required to follow the instructions specified below.
+
+## BRIEF OUTLINE:
 
 ## PROJECT ARCHITECHTURE
 1. Overall architechture
@@ -11,7 +17,12 @@
 
 2. EMR architechture
 
+<img src="https://github.com/alexdinh1997/Airlines_covid19_ETL_pipelines_with_Airflow_AWS/blob/master/img/EMR%20nodes.png" width=50% height=50%>
 
+## PROJECT PHASES
+1. Phase 1:
+2. Phase 2:
+3. Phase 3:
 
 ## SETTING UP AIRFLOW ON DOCKER
 1. Fetch the `docker-compose.yml` file:
@@ -98,6 +109,11 @@ The flight delay and cancellation data were collected from the U.S. Department o
 In this dataset, it includes 2
 ## MODELLING DATA
 1. Entity table
+
+![Entity_relationship](https://github.com/alexdinh1997/Airlines_covid19_ETL_pipelines_with_Airflow_AWS/blob/master/img/entity_relationship.PNG)
+
+2. Schema dictionary
+
 ## AIRFLOW USAGES
 ## QUALITY CHECK
 ## RESULT
@@ -170,4 +186,6 @@ S3 charges = 474.70 USD + 460.80 USD = 935.50 USD
 ## Credits:
 ### Setup the airflow with docker
 https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
-### 
+### AWS calculation
+https://calculator.aws/#/
+
