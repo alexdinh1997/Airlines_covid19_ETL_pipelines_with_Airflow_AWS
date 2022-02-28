@@ -20,9 +20,12 @@ In this project, you have the option of completing the project that has been ass
 <img src="https://github.com/alexdinh1997/Airlines_covid19_ETL_pipelines_with_Airflow_AWS/blob/master/img/EMR%20nodes.png" width=50% height=50%>
 
 ## PROJECT PHASES
-1. Phase 1:
-2. Phase 2:
-3. Phase 3:
+1. Phase 1: Inspect the data and setup environment
+2. Phase 2: Wrangling the data
+3. Phase 3: Create ETL.py file
+4. Phase 4: AWS setup
+5. Phase 5: DAG define
+6. Phase 6: Trigger DAG and fix the bugs
 
 ## SETTING UP AIRFLOW ON DOCKER
 1. Fetch the `docker-compose.yml` file:
