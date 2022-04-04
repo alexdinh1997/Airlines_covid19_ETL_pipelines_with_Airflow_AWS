@@ -4,9 +4,7 @@
 
 ## SENARIO:
 
-The goal of the data engineering capstone project is to allow you to use what you've learnt during the curriculum. This project will be a significant component of your portfolio, assisting you in achieving your data engineering career objectives. 
-
-In this project, you have the option of completing the project that has been assigned to you or defining the scope and data for a project of your own design. In any case, you'll be required to follow the instructions specified below.
+The goal of the data engineering capstone project is to allow to use in practical case study. This project will be a significant component of your portfolio, assisting you in achieving your data engineering career objectives. Besides, using Data orchestration tool like Apache Airflow help to direct and manage the flows of data in a systematic and automatic way to compare to the traditional process.
 
 ## BRIEF OUTLINE:
 
